@@ -943,18 +943,6 @@ video {
   outline-offset: 2px;
 }
 
-.duration-100{
-  transition-duration: 100ms;
-}
-
-.duration-1000{
-  transition-duration: 1000ms;
-}
-
-.duration-500{
-  transition-duration: 500ms;
-}
-
 @media (max-width: 640px){
   .container{
     max-width: 98%;
