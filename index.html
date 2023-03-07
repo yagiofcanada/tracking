@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Tracking.</title>
+  </head>
+  <body class="font-primary bg-primary text-white box-border m-0">
+    <header class="p-4 shadow sticky top-0 w-full bg-primary z-50">
+      <div class="container flex items-center justify-between relative">
+        <h1 class="font-bold text-xl">TRACKING.</h1>
+        <button id="stripes" class="block md:hidden cursor-pointer">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            viewBox="0 0 24 24"
+            fill="#FFFFFF"
+          >
+            <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z" />
+          </svg>
+        </button>
+        <button id="cancel" class="cursor-pointer hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            viewBox="0 0 24 24"
+            fill="#FFFFFF"
+          >
+            <path
+              d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"
+            />
+          </svg>
+        </button>
+        <div class="hidden text-sm gap-7 md:flex">
+          <a href="index.html" class="hover:text-gray-400">Home</a>
+          <a href="#why" class="hover:text-gray-400">Why Us?</a>
+          <a href="#about" class="hover:text-gray-400">About</a>
+          <a href="#contact" class="hover:text-gray-400">Contact</a>
+        </div>
+        <div class="absolute top-8 left-0 bg-primary w-full hidden mobile-menu">
+          <div class="flex-col gap-5 text-lg flex p-4 w-full">
+            <a href="index.html" class="hover:text-gray-400">Home</a>
+            <a href="#why" class="hover:text-gray-400">Why Us?</a>
+            <a href="#about" class="hover:text-gray-400">About</a>
+            <a href="#contact" class="hover:text-gray-400">Contact</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Banner -->
+    <section class="container relative md:flex md:flex-row-reverse md:gap-6">
+      <img
+        src="./img/stripe.png"
+        alt=""
+        class="absolute top-1/4 left-0 -z-50 md:top-0"
+      />
+      <img
+        src="./img/banner-bitcoin.svg"
+        alt=""
+        class="w-11/12 mx-auto swish_swish"
+        data-aos="fade-up"
+      />
+      <div class="md:w-full" data-aos="fade-up">
+        <div class="bg-white/10 rounded-xl py-1.5 px-4 w-fit mt-10">
+          Coming soon
+        </div>
+        <h1 class="font-bold text-2xl mt-5 md:text-5xl">
+          Fastest and secure platfrom to track your cryptos.
+        </h1>
+        <p class="my-5">
+          Track all your cryptocurrencies in one place, see real time prices and
+          get updates.
+        </p>
+        <button
+          class="bg-secondary p-4 rounded-3xl flex items-center justify-between gap-3"
+        >
+          Try for FREE
+          <img src="./img/arrow-right.png" alt="" class="w-5" />
+        </button>
+      </div>
+    </section>
+
+    <!-- Metrics -->
+    <section class="container my-16 relative md:mb-5">
+      <img
+        src="./img/stripe.png"
+        alt=""
+        class="absolute top-1/5 left-0 -z-50 mt-9 md:top-0"
+      />
+      <div class="flex flex-col gap-16 md:flex-row md:gap-6 md:justify-between">
+        <div class="flex gap-4 items-center md:gap-3" data-aos="fade-up">
+          <div class="bg-white/10 rounded-2xl p-4 md:h-full md:flex">
+            <img src="./img/bar-chart-icon.svg" alt="" class="w-8" />
+          </div>
+          <div class="flex flex-col gap-2">
+            <p class="font-bold text-3xl">$30b</p>
+            <p class="text-sm">Digital Currency Tracked</p>
+          </div>
+        </div>
+        <div class="flex gap-4 items-center md:gap-3" data-aos="fade-up">
+          <div class="bg-white/10 rounded-2xl p-4 md:h-full md:flex">
+            <img src="./img/portrait.svg" alt="" class="w-10" />
+          </div>
+          <div class="flex flex-col gap-2">
+            <p class="font-bold text-3xl">10M+</p>
+            <p class="text-sm">Wallet Tracked</p>
+          </div>
+        </div>
+        <div class="flex gap-4 items-center md:gap-3" data-aos="fade-up">
+          <div class="bg-white/10 rounded-2xl p-4 md:h-full md:flex">
+            <img src="./img/globe.svg" alt="" class="w-10" />
+          </div>
+          <div class="flex flex-col gap-2">
+            <p class="font-bold text-3xl">195</p>
+            <p class="text-sm">Countries Supported</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why you should use -->
+    <section class="container mb-16 md:flex md:gap-5 md:mb-10" id="why">
+      <img
+        src="./img/eth-machine.svg"
+        alt=""
+        class="md:w-full swish_swish"
+        data-aos="fade-up"
+      />
+      <div
+        class="flex flex-col gap-4 mt-6 md:w-full md:justify-center"
+        data-aos="fade-up"
+      >
+        <h1 class="font-bold text-3xl md:text-4xl">
+          Why you should use Tracking
+        </h1>
+        <p>
+          Experience the next generation cryptocurrency tracking platform. No
+          financial borders, fake prices and fake reviews.
+        </p>
+        <button class="bg-secondary py-3 px-4 rounded-3xl w-fit">
+          Learn More
+        </button>
+      </div>
+    </section>
+
+    <!-- TradingView Section -->
+    <section class="bg-white py-10">
+      <div class="container">
+        <h1 class="text-primary text-center font-bold text-2xl mb-5">
+          Popular Coins Watch
+        </h1>
+        <div class="h-60vh">
+          <!-- TradingView Widget BEGIN -->
+          <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <div class="tradingview-widget-copyright">
+              <a
+                href="https://www.tradingview.com/markets/cryptocurrencies/prices-all/"
+                rel="noopener"
+                target="_blank"
+                ><span class="blue-text">Crypto markets</span></a
+              >
+              by TradingView
+            </div>
+            <script
+              type="text/javascript"
+              src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js"
+              async
+            >
+                {
+                "width": "100%",
+                "height": "100%",
+                "defaultColumn": "overview",
+                "screener_type": "crypto_mkt",
+                "displayCurrency": "USD",
+                "colorTheme": "light",
+                "locale": "en",
+                "isTransparent": false
+              }
+            </script>
+          </div>
+          <!-- TradingView Widget END -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Track markets and portfolio -->
+    <section class="bg-pop pt-10" id="about">
+      <div class="container">
+        <h1 class="text-center text-2xl font-bold">
+          Track markets and portfolio.
+        </h1>
+        <!-- invest smart 1-->
+        <div
+          id="invest-smart1"
+          class="py-8 md:flex md:flex-row-reverse md:gap-10 md:items-center"
+        >
+          <img
+            src="./img/invest-smart-bitcoin.svg"
+            alt=""
+            class="text-center mb-7 md:w-full md:mb-0 md:mt-5"
+            data-aos="fade-up"
+          />
+          <div class="md:w-full" data-aos="fade-up">
+            <h1 class="text-2xl font-bold py-5 md:text-4xl">Invest Smart</h1>
+            <p class="text-justify mb-5">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti
+              maiores libero dolorem rem reiciendis harum fugiat tempore nisi
+              ratione eum consectetur labore tempora tenetur amet, corporis
+              dolores omnis odio fugit.
+            </p>
+            <button class="bg-secondary py-3 px-4 rounded-3xl w-fit">
+              Learn More
+            </button>
+          </div>
+        </div>
+        <!-- trading stats -->
+        <div id="trading-stats" class="py-8 md:flex md:gap-10 md:items-center">
+          <img
+            src="./img/usd-btc.svg"
+            alt=""
+            class="text-center mb-7 md:w-full md:mb-0 md:mt-7"
+            data-aos="fade-up"
+          />
+          <div class="md:w-full" data-aos="fade-up">
+            <h1 class="text-2xl font-bold py-5 md:text-4xl">
+              Trading Statistics
+            </h1>
+            <p class="text-justify mb-5">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima
+              obcaecati nam tenetur ipsa consequuntur necessitatibus quam fugit
+              pariatur exercitationem unde, dignissimos amet tempora ut, laborum
+              magnam, explicabo eligendi autem distinctio.
+            </p>
+            <button class="bg-secondary py-3 px-4 rounded-3xl w-fit">
+              Learn More
+            </button>
+          </div>
+        </div>
+        <!-- invest smart 2 -->
+        <div
+          id="invest-smart2"
+          class="py-8 md:flex md:flex-row-reverse md:gap-10 md:items-start"
+        >
+          <img
+            src="./img/invest-smart-eth.svg"
+            alt=""
+            class="text-center mb-7 md:w-full md:mb-0 md:mt-7"
+            data-aos="fade-up"
+          />
+          <div class="md:w-full" data-aos="fade-up">
+            <h1 class="text-2xl font-bold py-5 md:text-4xl">Invest Smart</h1>
+            <p class="text-justify mb-5">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti
+              maiores libero dolorem rem reiciendis harum fugiat tempore nisi
+              ratione eum consectetur labore tempora tenetur amet, corporis
+              dolores omnis odio fugit.
+            </p>
+            <button class="bg-secondary py-3 px-4 rounded-3xl w-fit">
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="container py-8" id="contact">
+      <div
+        class="w-full bg-secondary rounded-xl py-4 mb-6 relative overflow-hidden md:flex md:items-center md:justify-between md:gap-10 md:p-8"
+      >
+        <img src="./img/footer-left.png" alt="" class="absolute" />
+        <img src="./img/footer-right.png" alt="" class="absolute right-0" />
+        <p class="text-center mb-5 md:mb-0">Subscribe to our newsletter</p>
+        <div class="flex items-center justify-center">
+          <input
+            type="text"
+            placeholder="Enter Email..."
+            class="bg-transparent border-b-2 placeholder-white outline-none"
+          />
+          <button class="bg-white py-2 px-3 rounded-2xl w-fit text-primary">
+            Subscribe
+          </button>
+        </div>
+      </div>
+      <div class="flex flex-col gap-4">
+        <h1 class="font-bold text-3xl text-center">TRACKING.</h1>
+        <div>
+          <p class="text-center text">
+            &copy2023 Archangel. All rights reserved
+          </p>
+          <p class="text-center text font-light">
+            Original
+            <a
+              href="https://trackerangel.netlify.app/"
+              class="underline text-gray-400 font-semibold"
+              >Link</a
+            >. Cloned by
+            <a
+              href="https://twitter.com/yagiofcanada"
+              class="text-green-500 font-semibold"
+              >Yagi</a
+            >.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: false,
+      });
+    </script>
+  </body>
+</html>

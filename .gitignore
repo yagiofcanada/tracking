@@ -1,0 +1,4 @@
+node_modules
+src/
+Fulltailwind.config.js
+tailwind.config.js
